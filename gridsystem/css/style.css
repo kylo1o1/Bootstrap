@@ -1,0 +1,70 @@
+.container{}
+#carouselExampleCaptions {}
+.grid {
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid div{
+    background-color: bisque;
+    
+}
+.grid  :nth-child(2){
+    grid-column: span 2;
+    background-color: brown;
+    text-align: center;
+}
+.box{
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: bisque;
+    box-sizing: content-box;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: boxanimation 10s infinite;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: boxanimation1 10s infinite;
+}
+
+
+
+/*Animation  */
+@keyframes boxanimation {
+    0%{
+        background-color: blue;
+        left: 0%;
+    }
+    50%{
+        background-color: aqua;
+        left: calc(100vw - 60%);
+    }
+    100%{
+        background-color: red;
+        left: 0%;
+    }
+
+}
+@keyframes boxanimation1 {
+    0%{
+        background-color: black;
+        right: -80%;
+    }
+    50%{
+        background-color: bisque;
+        right: calc(100vw - 138%);
+    }
+    100%{
+        background-color: gray;
+        right: -80%;
+    }
+
+}

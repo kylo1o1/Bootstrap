@@ -1,0 +1,50 @@
+header{
+    background-color: #411b66;
+    padding: 75px 0px;
+    position: fixed;
+    width: 100%;
+}
+.header-right{
+    align-items: center;
+    justify-content: right;
+}
+.logo-img img{
+    width: 65%;
+    align-self: center;
+    transition: all 0.4s;
+
+    /* bottom: 00%; */
+    /* max-width: 100%; */
+}
+.logo-img img:hover{
+    transform: scale(1.05);
+}
+.navbar .navbar-nav .nav-item{
+    padding: 0px 35px;
+    align-content: center;
+
+}
+.navbar .navbar-nav .nav-item a{
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #feab01;
+}
+.navbar .navbar-nav .yellow-btn a{
+    background-color: #feab01;
+    background:url(https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/arrow.svg) no-repeat right 20px center #feab01;
+    /* border-radius: ; */
+    padding: 15px 50px 15px 25px;
+    border-radius: 16px;
+    border: #feab01 solid 1px;
+}
+.navbar .navbar-nav .yellow-btn a:hover{
+    background-color: transparent;
+    color: #feab01;
+}
+.collapse{
+    color: black;
+}
